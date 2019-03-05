@@ -1,3 +1,5 @@
+package io;
+
 public class Product {
 
     private Integer id;
@@ -49,7 +51,7 @@ public class Product {
 
     @Override
     public String toString() {
-        return "Product{" +
+        return "io.Product{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", price=" + price +
